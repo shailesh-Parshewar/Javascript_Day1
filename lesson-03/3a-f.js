@@ -3,3 +3,6 @@ console.log(str1)
 
 const name = "shailesh"
 console.log(name)
+
+const completeStr = str1 + name
+console.log(completeStr)
