@@ -10,3 +10,5 @@ console.log(completeStr)
 const cost = 3 + 5
 const text = `Total cost : $${cost}`
 console.log(text)
+
+alert(text)
