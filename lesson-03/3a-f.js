@@ -6,3 +6,7 @@ console.log(name)
 
 const completeStr = str1 + name
 console.log(completeStr)
+
+const cost = 3 + 5
+const text = `Total cost : $${cost}`
+console.log(text)
