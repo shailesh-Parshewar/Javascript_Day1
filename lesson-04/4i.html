@@ -27,7 +27,12 @@
 <body>
     <p>Adults Plain Cotton T-shirt</p>
     <p>Price: $7.99</p>
-     <button class="cart">Add to cart</button>
-    <button class="buy">Buy now</button>
+     <button class="cart" onclick="(() => {
+        alert('Added')
+     })()">Add to cart</button>
+    <button class="buy" onclick="(() => {
+        console.log('loading...')
+        alert('Purchased')
+    })()">Buy now</button>
 </body>
 </html>
