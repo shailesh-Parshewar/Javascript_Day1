@@ -7,3 +7,5 @@ console.log(shipping)
 
 const totalTaxbefore = `Total before tax: $${(2 * 2095 + 2 * 799 + 499 + 499) / 100}`
 console.log(totalTaxbefore)
+const tax = `Estimated tax (10%): $${Math.round((2 * 2095 + 2 * 799 + 499 + 499) * 0.1) / 100}`
+console.log(tax)
