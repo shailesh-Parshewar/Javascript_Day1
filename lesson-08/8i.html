@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="playGame('Heads')">Heads</button>
+    <button onclick="playGame('Tails')">Tails</button>
+    <script>
+        function playGame(guess) {
+            const variable = Math.random();
+            const result = variable > 0.5 ? "Tails" : "Heads"
+            if(result == guess) {
+                console.log("You won!")
+            } else {
+                console.log("Try again")
+            }
+        }
+    </script>
+</body>
+</html>
